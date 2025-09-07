@@ -68,7 +68,7 @@ current_position:
   - place: Meta, Fundamental AI Research (FAIR)
     location: Menlo Park, CA
     title: Research Scientist Intern
-    dates: Jun 2025 -- Present
+    dates: 2025 -- Present
     inline_detail: "with \\href{https://arman-z.github.io}{Arman Zharmagambetov} on game-theoretical perspectives on LLM safety"
   - place: University of Tuebingen \& Max-Planck-Institute for Intelligent Systems
     location: Tuebingen, Germany
@@ -97,7 +97,7 @@ positions:
   - place: Meta, Fundamental AI Research (FAIR)
     location: New York City
     title: Research Scientist Intern
-    dates: Aug 2023 -- Feb 2024
+    dates: 2023 -- 2024
     inline_detail: "with \\href{https://bamos.github.io}{Brandon Amos} on amortized optimization for LLM safety"
   - place: Max-Planck-Institute for Intelligent Systems
     location: Tuebingen, Germany
