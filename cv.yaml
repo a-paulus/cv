@@ -132,6 +132,9 @@ all_publications:
 
 
 repos:
+  - repo_url: https://github.com/a-paulus/softjax
+    year: 2025
+    desc: Softjax (library for differentiable operations in JAX)
   - repo_url: https://github.com/facebookresearch/advprompter
     year: 2025
     desc: AdvPrompter (Adversarial attacks on LLMs)
