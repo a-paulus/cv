@@ -134,7 +134,7 @@ all_publications:
 
 repos:
   - repo_url: https://github.com/facebookresearch/advgame
-    year: 2025
+    year: 2026
     desc: AdvGame (Adversarial attacks on LLMs)
   - repo_url: https://github.com/a-paulus/softtorch
     year: 2025
