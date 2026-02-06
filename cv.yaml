@@ -35,11 +35,6 @@ order:
 about: |
   <p>
   I am a PhD student with the IMPRS-IS program at the University of Tuebingen and the Max-Planck-Institute for Intelligent Systems, supervised by <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/">Georg Martius</a>.
-  I am interested in <b>differentiable and amortized optimization, LLM safety and reasoning</b>.
-  Currently I am interning in the
-  <b>Fundamental AI Research (FAIR)</b>
-  group at
-  <b>Meta</b> in Menlo Park, where I study LLM safety from a game-theoretical perspective, supervised by <a href="https://arman-z.github.io">Arman Zharmagambetov</a>.
 
   A few major themes of my research involve:
   </p>
@@ -47,34 +42,31 @@ about: |
   <ol>
   <li>
     <b>attacking language models</b> to improve safety and alignment
-    (in <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>)
+    (in <a href="https://arxiv.org/abs/2512.20806">AdvGame</a> and <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>)
   </li>
   <li>
     <b>differentiable combinatorial optimization</b>
     (in
     <a href="https://arxiv.org/abs/1912.02175">blackbox solver differentiation</a>,
     <a href="https://arxiv.org/abs/2105.02343">CombOptNet</a>, and
-    <a href="https://arxiv.org/abs/2407.05920v1">LPGD</a>)
+    <a href="https://arxiv.org/abs/2407.05920v1">LPGD</a>
+    )
   </li>
   <li>
     <b>differentiable physics simulation</b>
     (in
-    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a>)
+    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a> and 
+    <a href="https://github.com/a-paulus/softjax">SoftJAX</a>)
   </li>
   </ol>
   <br>
 
 current_position:
-  - place: Meta, Fundamental AI Research (FAIR)
-    location: Menlo Park, CA
-    title: Research Scientist Intern
-    dates: 2025 -- Present
-    inline_detail: "with \\href{https://arman-z.github.io}{Arman Zharmagambetov} on game-theoretical perspectives on LLM safety"
   - place: University of Tuebingen \& Max-Planck-Institute for Intelligent Systems
     location: Tuebingen, Germany
     title: Ph.D. Student in Machine Learning
     dates: 2022 -- Present
-    inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and simulation"
+    inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and LLM safety"
 
 education:
   - school: University of Tuebingen
@@ -94,6 +86,11 @@ education:
     overallGPA: 3.80/4.00
 
 positions:
+  - place: Meta, Fundamental AI Research (FAIR)
+    location: Menlo Park, CA
+    title: Research Scientist Intern
+    dates: 2025 -- 2026
+    inline_detail: "with \\href{https://arman-z.github.io}{Arman Zharmagambetov} on game-theoretical perspectives on LLM safety"
   - place: Meta, Fundamental AI Research (FAIR)
     location: New York City
     title: Research Scientist Intern
@@ -129,12 +126,22 @@ all_publications:
     'Yuandong Tian': 'https://yuandong-tian.com'
     'Geist': 'https://andregeist.github.io'
     'Pierre Schumacher': 'https://p-schumacher.github.io'
+    'Ilia Kulikov': 'https://scholar.google.com/citations?user=fN7fYXIAAAAJ'
+    'Munos': 'https://chercheurs.lille.inria.fr/munos/'
+    'Ivan Evtimov': 'https://ivanevtimov.eu'
+    'Kamalika Chaudhuri': 'https://scholar.google.com/citations?user=X8H76XIAAAAJ'
 
 
 repos:
+  - repo_url: https://github.com/facebookresearch/advgame
+    year: 2025
+    desc: AdvGame (Adversarial attacks on LLMs)
+  - repo_url: https://github.com/a-paulus/softtorch
+    year: 2025
+    desc: SoftTorch (library for differentiable operations in PyTorch)
   - repo_url: https://github.com/a-paulus/softjax
     year: 2025
-    desc: Softjax (library for differentiable operations in JAX)
+    desc: SoftJAX (library for differentiable operations in JAX)
   - repo_url: https://github.com/facebookresearch/advprompter
     year: 2025
     desc: AdvPrompter (Adversarial attacks on LLMs)
