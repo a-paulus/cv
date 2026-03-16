@@ -99,7 +99,7 @@
   codeurl      = {https://github.com/martius-lab/diffcp-lpgd},
   url          = {https://arxiv.org/abs/2407.05920},
   _venue       = {ICML},
-  selected     = {true},
+  selected     = {false},
   abstract     = {
     Embedding parameterized optimization problems as layers into machine learning architectures serves as a powerful inductive bias. Training such architectures with stochastic gradient descent requires care, as degenerate derivatives of the embedded optimization problem often render the gradients uninformative. We propose Lagrangian Proximal Gradient Descent (LPGD) a flexible framework for training architectures with embedded optimization layers that seamlessly integrates into automatic differentiation libraries. LPGD efficiently computes meaningful replacements of the degenerate optimization layer derivatives by re-running the forward solver oracle on a perturbed input. LPGD captures various previously proposed methods as special cases, while fostering deep links to traditional optimization methods. We theoretically analyze our method and demonstrate on historical and synthetic data that LPGD converges faster than gradient descent even in a differentiable setup.
   }
@@ -123,14 +123,14 @@
 }
 
 
-@misc{paulus2025hard,
+@misc{paulus2026hard,
   title        = {Hard Contacts with Soft Gradients: Refining Differentiable Simulators for Learning and Control},
   author       = {Anselm Paulus* and
                   Andreas René Geist* and
                   Pierre Schumacher and
                   Vít Musil and
                   Georg Martius},
-  year         = {2025},
+  year         = {2026},
   url          = {https://arxiv.org/abs/2506.14186},
   _venue       = {ICLR},
   selected     = {false},
@@ -153,6 +153,21 @@
       url={https://arxiv.org/abs/2512.20806}, 
       _venue={Under submission},
       selected={true},
+      abstract={
       Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on sequential adversarial training: generating adversarial prompts and fine-tuning LMs to defend against them. We introduce a different paradigm: framing safety alignment as a non-zero-sum game between an Attacker LM and a Defender LM trained jointly via online reinforcement learning. Each LM continuously adapts to the other's evolving strategies, driving iterative improvement. Our method uses a preference-based reward signal derived from pairwise comparisons instead of point-wise scores, providing more robust supervision and potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and utility, yielding a Defender LM that is simultaneously more helpful and more resilient to adversarial attacks. In addition, the resulting Attacker LM converges into a strong, general-purpose red-teaming agent that can be directly deployed to probe arbitrary target models.
-  }
+      }
+}
+
+
+@misc{paulus2026softjaxsofttorch,
+      title={SoftJAX \& SoftTorch: Empowering Automatic Differentiation Libraries with Informative Gradients},
+      author={Anselm Paulus and A. René Geist and Vít Musil and Sebastian Hoffmann and Onur Beker and Georg Martius},
+      year={2026},
+      url={https://arxiv.org/abs/2603.08824},
+      selected={true},
+      _venue={Under submission},
+      selected={true},
+      abstract={
+      Automatic differentiation (AD) frameworks such as JAX and PyTorch have enabled gradient-based optimization for a wide range of scientific fields. Yet, many "hard" primitives in these libraries such as thresholding, Boolean logic, discrete indexing, and sorting operations yield zero or undefined gradients that are not useful for optimization. While numerous "soft" relaxations have been proposed that provide informative gradients, the respective implementations are fragmented across projects, making them difficult to combine and compare. This work introduces SoftJAX and SoftTorch, open-source, feature-complete libraries for soft differentiable programming. These libraries provide a variety of soft functions as drop-in replacements for their hard JAX and PyTorch counterparts. This includes (i) elementwise operators such as clip or abs, (ii) utility methods for manipulating Booleans and indices via fuzzy logic, (iii) axiswise operators such as sort or rank -- based on optimal transport or permutahedron projections, and (iv) offer full support for straight-through gradient estimation. Overall, SoftJAX and SoftTorch make the toolbox of soft relaxations easily accessible to differentiable programming, as demonstrated through benchmarking and a practical case study. Code is available at github.com/a-paulus/softjax and github.com/a-paulus/softtorch.
+      }
 }

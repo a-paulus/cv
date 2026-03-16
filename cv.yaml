@@ -55,8 +55,9 @@ about: |
   <li>
     <b>differentiable physics simulation</b>
     (in
-    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a> and 
-    <a href="https://github.com/a-paulus/softjax">SoftJAX</a>)
+    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a>, 
+    <a href="https://github.com/a-paulus/softjax">SoftJAX</a>) and
+    <a href="https://github.com/a-paulus/softtorch">SoftTorch</a>)
   </li>
   </ol>
   <br>
@@ -66,7 +67,7 @@ current_position:
     location: Tuebingen, Germany
     title: Ph.D. Student in Machine Learning
     dates: 2022 -- Present
-    inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and LLM safety"
+    inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and LLM safety/security"
 
 education:
   - school: University of Tuebingen
@@ -130,18 +131,20 @@ all_publications:
     'Munos': 'https://chercheurs.lille.inria.fr/munos/'
     'Ivan Evtimov': 'https://ivanevtimov.eu'
     'Kamalika Chaudhuri': 'https://scholar.google.com/citations?user=X8H76XIAAAAJ'
+    'Onur Beker': 'https://scholar.google.com/citations?user=swMOohkAAAAJ'
+    'Sebastian Hoffmann': 'https://scholar.google.com/citations?user=s6wolrEAAAAJ'
 
 
 repos:
+  - repo_url: https://github.com/a-paulus/softjax
+    year: 2026
+    desc: SoftJAX (library for differentiable operations in JAX)
+  - repo_url: https://github.com/a-paulus/softtorch
+    year: 2026
+    desc: SoftTorch (library for differentiable operations in PyTorch)
   - repo_url: https://github.com/facebookresearch/advgame
     year: 2026
     desc: AdvGame (Adversarial attacks on LLMs)
-  - repo_url: https://github.com/a-paulus/softtorch
-    year: 2025
-    desc: SoftTorch (library for differentiable operations in PyTorch)
-  - repo_url: https://github.com/a-paulus/softjax
-    year: 2025
-    desc: SoftJAX (library for differentiable operations in JAX)
   - repo_url: https://github.com/facebookresearch/advprompter
     year: 2025
     desc: AdvPrompter (Adversarial attacks on LLMs)
