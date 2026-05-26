@@ -1,7 +1,7 @@
 name:
   first: Anselm
   last: Paulus
-email: anselm.paulus@uni-tuebingen.de
+email: anselm@expsec.ai
 pdf: /data/cv.pdf
 src: https://github.com/a-paulus/cv
 url: "a-paulus.github.io"
@@ -34,7 +34,7 @@ order:
 
 about: |
   <p>
-  I am a PhD student with the IMPRS-IS program at the University of Tuebingen and the Max-Planck-Institute for Intelligent Systems, supervised by <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/">Georg Martius</a>.
+  I am wrapping up my PhD with the IMPRS-IS program at the University of Tuebingen and the Max-Planck-Institute for Intelligent Systems, supervised by <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/">Georg Martius</a>.
 
   A few major themes of my research involve:
   </p>
@@ -55,18 +55,22 @@ about: |
   <li>
     <b>differentiable physics simulation</b>
     (in
-    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a>, 
-    <a href="https://github.com/a-paulus/softjax">SoftJAX</a>) and
+    <a href="https://arxiv.org/abs/2506.14186">DiffMJX</a>,
+    <a href="https://github.com/a-paulus/softjax">SoftJAX</a>, and
     <a href="https://github.com/a-paulus/softtorch">SoftTorch</a>)
   </li>
   </ol>
+
+  <p>
+  I am now building something incredibly exciting in the AI safety &amp; security space with a great group of people &mdash; please <a href="mailto:anselm@expsec.ai">reach out to me</a> if this sounds interesting!
+  </p>
   <br>
 
 current_position:
   - place: University of Tuebingen \& Max-Planck-Institute for Intelligent Systems
     location: Tuebingen, Germany
     title: Ph.D. Student in Machine Learning
-    dates: 2022 -- Present
+    dates: 2022 -- 2026
     inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and LLM safety/security"
 
 education:
@@ -102,7 +106,6 @@ positions:
     title: Research Assistant
     dates: 2018 -- 2022
     inline_detail: "with \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable combinatorial optimization"
-    dates: 2016 -- 2019
 
 all_publications:
   name: "Paulus"
