@@ -10,6 +10,24 @@
     \hfill << item.year >> \\
 ~< endfor >~
 
+\subsection{Invited Talks}
+\begin{longtable}[t]{p{.2in}@{\hspace{1mm}}p{6.2in}@{\hspace{1em}}r}
+~< for item in items.talks >~
+  \hfill << loop.index >>. &
+  ~< if item.url >~
+    \href{<< item.url >>}{\emph{<< item.title >>}}~\textemdash~
+  ~< else >~
+    \emph{<< item.title >>}~\textemdash~
+  ~< endif >~
+  ~< if item.location_url >~
+    \href{<< item.location_url >>}{<< item.location >>}
+  ~< else >~
+    << item.location >>
+  ~< endif >~
+  & << item.year >> \\
+~< endfor >~
+\end{longtable}
+
 \subsection{Reviewing}
 ~< for item in items.reviewing >~
 << item >> \\
