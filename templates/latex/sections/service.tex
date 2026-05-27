@@ -11,7 +11,7 @@
 ~< endfor >~
 
 \subsection{Invited Talks}
-\begin{longtable}[t]{p{.2in}@{\hspace{1mm}}p{6.2in}@{\hspace{1em}}r}
+\begin{tabular}{p{.2in}@{\hspace{1mm}}p{6.2in}@{\hspace{1em}}r}
 ~< for item in items.talks >~
   \hfill << loop.index >>. &
   ~< if item.url >~
@@ -26,10 +26,10 @@
   ~< endif >~
   & << item.year >> \\
 ~< endfor >~
-\end{longtable}
+\end{tabular}
 
 \subsection{Reviewing}
 ~< for item in items.reviewing >~
-<< item >> \\
+<< item.venue >> \hfill << item.years >> \\
 ~< endfor >~
 ~< endblock body >~

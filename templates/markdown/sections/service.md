@@ -45,7 +45,10 @@
 <table class="table table-hover">
 {% for item in items.reviewing %}
 <tr>
-  <td style='padding-right:0;'>{{ item }}</td>
+  <td style='padding-right:0;'>
+    <span class='cvdate'>{{ item.years }}</span>
+    {{ item.venue }}
+  </td>
 </tr>
 {% endfor %}
 </table>

@@ -176,10 +176,14 @@ service:
       location_url: https://www.dagstuhl.de/de/seminars/seminar-calendar/seminar-details/22291
       year: 2022
   reviewing:
-    - "International Conference on Learning Representations (ICLR): 2022, 2023, 2024, 2025"
-    - "International Conference on Machine Learning (ICML): 2022, 2023, 2024, 2025"
-    - "Neural Information Processing Systems (NeurIPS): 2021, 2022, 2025"
-    - "Neural Information Processing Systems (NeurIPS) DiffCoAlg Workshop: 2025"
+    - venue: "International Conference on Learning Representations (ICLR)"
+      years: "2022, 2023, 2024, 2025, 2026"
+    - venue: "International Conference on Machine Learning (ICML)"
+      years: "2022, 2023, 2024, 2025"
+    - venue: "Neural Information Processing Systems (NeurIPS)"
+      years: "2021, 2022, 2025"
+    - venue: "Neural Information Processing Systems (NeurIPS) DiffCoAlg Workshop"
+      years: "2025"
 
 skills:
   - title: Programming
