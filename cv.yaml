@@ -32,15 +32,16 @@ order:
 
 about: |
   <p>
-  I am wrapping up my PhD with the IMPRS-IS program at the University of Tuebingen and the Max-Planck-Institute for Intelligent Systems, supervised by <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/">Georg Martius</a>.
+  Hi, I am Anselm! I recently defended my PhD in the IMPRS-IS program at the University of Tuebingen and the Max-Planck-Institute for Intelligent Systems, supervised by <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/">Georg Martius</a>.
+  I am now co-founder and CTO of <a href="https://expsec.ai">Exponential</a> (Exponential Security Labs), where we build security environments, adaptive red-teaming evaluations, and adversarial training data for AI agents.
 
-  A few major themes of my research involve:
+  A few major themes of my past and current research involve:
   </p>
 
   <ol>
   <li>
     <b>attacking language models</b> to improve safety and alignment
-    (in <a href="https://arxiv.org/abs/2512.20806">AdvGame</a> and <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>)
+    (in <a href="https://arxiv.org/abs/2512.20806">AdvGame</a>, <a href="https://arxiv.org/abs/2404.16873">AdvPrompter</a>, and <a href="https://arxiv.org/abs/2609.30217">Instrumental Monitor Evasion</a>)
   </li>
   <li>
     <b>differentiable combinatorial optimization</b>
@@ -60,18 +61,25 @@ about: |
   </ol>
 
   <p>
-  I am now building something incredibly exciting in the AI safety &amp; security space with a great group of people &mdash; please <a href="mailto:anselm@expsec.ai">reach out to me</a> if this sounds interesting!
+  If you want to work with us at Exponential or talk about any of these topics, please <a href="mailto:anselm@expsec.ai">reach out to me</a>!
   </p>
   <br>
 
 current_position:
-  - place: University of Tuebingen \& Max-Planck-Institute for Intelligent Systems
+  - place: Exponential Security Labs
     location: Tuebingen, Germany
-    title: Ph.D. Student in Machine Learning
-    dates: 2022 -- 2026
-    inline_detail: "supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius} on differentiable optimization and LLM safety/security"
+    title: Co-Founder \& CTO
+    dates: 2026 -- present
+    inline_detail: "building security environments, adaptive red-teaming evaluations, and adversarial training data for AI agents at \\href{https://expsec.ai}{Exponential}"
 
 education:
+  - school: University of Tuebingen \& Max-Planck-Institute for Intelligent Systems
+    location: Tuebingen, Germany
+    degree: Ph.D. in Machine Learning
+    dates: 2022 -- 2026
+    details:
+      - "Thesis: \\textit{Machine Learning in the Presence of Discrete and Non-Differentiable Operations}, defended September 2026"
+      - "Supervised by \\href{https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/prof-dr-georg-martius/}{Georg Martius}"
   - school: University of Tuebingen
     location: Tuebingen, Germany
     degree: M.Sc. in Computer Science
@@ -134,6 +142,15 @@ all_publications:
     'Kamalika Chaudhuri': 'https://scholar.google.com/citations?user=X8H76XIAAAAJ'
     'Onur Beker': 'https://scholar.google.com/citations?user=swMOohkAAAAJ'
     'Sebastian Hoffmann': 'https://scholar.google.com/citations?user=s6wolrEAAAAJ'
+    'Derck Prinzhorn': 'https://derckprinzhorn.com'
+    'Luca Beurer-Kellner': 'https://lbeurerkellner.github.io'
+    'Ameya Prabhu': 'https://ameya.prabhu.be'
+    'Maksym Andriushchenko': 'https://www.andriushchenko.me'
+    'Sylvain Calinon': 'https://calinon.ch'
+    # TODO: replace these three search links with real homepages (no % in URLs: it breaks the LaTeX build)
+    'David Schmotz': 'https://scholar.google.com/scholar?q=David+Schmotz'
+    'Nico Gürtler': 'https://scholar.google.com/scholar?q=Nico+Guertler'
+    'Ji Shi': 'https://scholar.google.com/scholar?q=Ji+Shi+Calinon'
 
 
 repos:
